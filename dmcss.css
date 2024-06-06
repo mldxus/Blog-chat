@@ -1,0 +1,165 @@
+body
+{
+   background-color:#d4ccbb;
+   color:#22313f;
+   font-family:"Cosmic Sans MS";
+   font-size:medium;
+}
+
+#page
+{
+   background-color: #d4ccbb ;
+   background-position:top right;
+   background-repeat:no-repeat;
+   min-height:55em;
+   height:55em;
+}
+
+html>body #page
+{
+   height:auto;
+}
+header {
+    color: #9aaf97;
+    background: #9aaf97;
+    text-align: center;
+    padding: 1em; 
+    position: relative; 
+}
+
+.container {
+    position: relative;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.logo-container {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+}
+
+.logo {
+    display: block;
+}
+
+.los {
+    margin-left: 20px; 
+    color : #d4ccbb;
+}
+
+
+menu
+{
+	left:5%;
+	position:absolute;
+	width:15%;
+	overflow:hidden;
+}
+h2
+{
+    padding-left: 3%;
+    font-weight:700;
+	font-size: 230%;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 240%;
+
+    
+}
+p, li{
+    padding-left: 4%;
+    font-size: 150%;
+}
+.presentation{
+    padding-top: 3%;
+
+}
+table{
+
+    font-family: "Cosmic Sans MS";
+    font-size: 100%;
+    letter-spacing: 3px;
+    border-spacing: 2cap;
+  }
+  
+ caption {
+    caption-side:top;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+h3{
+    padding-left: 3%;
+    font-size: 200%;
+}
+.error {
+    color: red;
+}
+form {
+    background-color: #d4ccbb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9aaf97;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d4ccbb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #9aaf97;
+    color: #22313f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9aaf97;
+}
+
+.error {
+    color: rgb(155, 74, 74);
+    margin-top: 10px;
+}
+
+.mimi {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+  
+    

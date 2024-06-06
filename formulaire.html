@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dmcss.css" rel="stylesheet"/>
+    <link rel="icon" href="cat.png">
+
+    <title>Formulaire</title>
+
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div class="container">
+                <a href="INDEX.html" class="logo-container">
+                    <img class="logo" src="cat.png" width="100" alt="Image" />
+                </a>
+                <h1 class="los">✩ LOS GATITOS ✩</h1>
+            </div>
+        </header>
+
+        <h2>Formulaire</h2>
+        <p> Pour assister à ce séminaire vous devez être majeur. </p><br>
+        <p>Pour valider le formulaire tout les champs doivent être remplis.</p>
+        <form id="myForm">
+            <div>
+                <label for="nom">✭ Nom ✭ :</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div>
+                <label for="prenom">✭ Prénom ✭ :</label>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+            <div>
+                <label for="age">✭ Âge ✭ :</label>
+                <input type="number" id="age" name="age">
+            </div>
+            <div>
+                <label for="sex">Sexe:</label>
+                <select id="sex" name="sex">
+                    <option value="homme">Homme</option>
+                    <option value="femme">Femme</option>
+                </select>
+            </div>
+            <button type="button" onclick="validerFormulaire()">Valider =^._.^= </button>
+        </form>
+        <script src="formulaire.js"></script>
+        <div id="messageErreur" class="error" style="display:none;"></div>
+    </div>
+</body>
+</html>
